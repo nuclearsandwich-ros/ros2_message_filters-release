@@ -1,0 +1,12 @@
+Source: ros-turbulent-message-filters
+Section: misc
+Priority: extra
+Maintainer: Ethan Gao <ethan.gao@linux.intel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-python, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-builtin-interfaces, ros-turbulent-python-cmake-module, ros-turbulent-rclcpp, ros-turbulent-rclpy, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Homepage: https://github.com/intel/ros2_message_filters
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-message-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: A set of ROS2 message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
