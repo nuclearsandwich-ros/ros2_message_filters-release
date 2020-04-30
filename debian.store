@@ -1,1 +1,1 @@
-{"trim": "", "base": "d347111", "trimbase": "", "parent": "debian/eloquent/message_filters", "previous": "ccbe0d6"}
+{"base": "c800b87", "parent": "debian/verystable/message_filters", "previous": "102f029", "trim": "", "trimbase": ""}
