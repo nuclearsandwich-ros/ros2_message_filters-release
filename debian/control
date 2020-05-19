@@ -1,0 +1,12 @@
+Source: ros-testing-message-filters
+Section: misc
+Priority: optional
+Maintainer: Ethan Gao <ethan.gao@linux.intel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-pytest, ros-testing-ament-cmake-python, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-builtin-interfaces, ros-testing-python-cmake-module, ros-testing-rclcpp, ros-testing-rclpy, ros-testing-sensor-msgs, ros-testing-std-msgs, ros-testing-ros-workspace
+Homepage: https://github.com/intel/ros2_message_filters
+Standards-Version: 3.9.2
+
+Package: ros-testing-message-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ros-workspace
+Description: A set of ROS2 message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
