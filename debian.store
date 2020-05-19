@@ -1,1 +1,1 @@
-{"trim": "", "base": "393cc3a", "trimbase": "", "parent": "debian/foxy/message_filters", "previous": "0d5bee9"}
+{"base": "309630c", "parent": "debian/testing/message_filters", "previous": "94e0054", "trim": "", "trimbase": ""}
